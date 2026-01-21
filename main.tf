@@ -106,7 +106,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username   = "azureuser"
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAB...your-public-key-here"
+    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAB...ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCaC85zBvgsCLIJp+JXOrM19LNswyoxnQGSLerKSke0dKGSkUfHiwjS0PMWqK/T2nR0HAGyNvXM2y6BN8hP4KSHQdo+Mil/2UdZ3ruKdfRGgDhcYHk2oC797nzZtw4h9iRQsSg+euSPOGuWycliM9osrCBo2brzzfWs7HOpgxNXoYgXwZ6SlFZx9RigUgEBnXfUkYWyPf2ACiAIdHeQQd1Dx7YxwRGc4EPBjZFgkwE+90nmy484fSK072gjxTvz5dOGWUJx9cgXKzl/6rBZ9P9f6VSax8CREoXQXmdnDQUcmqR/brezImVQQGfz8TdafsT/ITkogbK8ktqJU+MOUkUipwtIXRi/sRqUctKdtf/rW7I3w6PS8i3lHokqy8QAKhY8le3rmWFSWbKYTrQpKk5cZ3++Rp+jOzAws8FKu7+65DrZrVHVc8X84huAjp18EqE32O4t/sVs5viqDSHaJ0P2FkSkheakseBF32UKzK5TUyW/Al44e8vEHsqw/9jdrF2Qv2GhOucHarWJdqeyAjUHXgPWFESkHwP1wqpcZwP0vPdEEqXGieGphwfmyVsY9nkeKHPWCvd1/t9wK6nJT6tsAE0A0xjQvWT2PpR4zO3tm3/T71TGe4strvKjd0C9lnkeyWZb/JGpEg2HniX8kEiSBcwnT0Q5Fw31JXD3xrsI8w== jenkins@demo"
   }
 
   os_disk {
