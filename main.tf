@@ -123,7 +123,11 @@ admin_password      = "P@ssw0rd123!AzureVM456"  # ← ADD THIS
     sku       = "22_04-lts-gen2"
     version   = "latest"
   }
-
+lifecycle {
+  ignore_changes = [
+  size
+  ]
+}
   tags = {
     Environment = "Demo"
     ManagedBy   = "Terraform"
