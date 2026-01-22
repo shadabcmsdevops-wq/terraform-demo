@@ -27,6 +27,10 @@ resource "random_string" "suffix" {
 resource "azurerm_resource_group" "rg" {
   name     = "rg-jenkins-demo"
   location = "Korea Central"
+tags     = {
+    Environment = "Demo"
+    ManagedBy   = "Terraform"
+  }
 }
 
 # Virtual Network
