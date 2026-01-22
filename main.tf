@@ -26,7 +26,7 @@ resource "random_string" "suffix" {
 # Resource Group (already works)
 resource "azurerm_resource_group" "rg" {
   name     = "rg-jenkins-demo"
-  location = "Central India"
+  location = "West US 3"
 tags     = {
     Environment = "Demo"
     ManagedBy   = "Terraform"
